@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Gabriola');
+@import url('https://fonts.googleapis.com/css?family=Gabriola');
+@import url('https://fonts.googleapis.com/css?family=Gabriola');
+@import url('https://fonts.googleapis.com/css?family=Gabriola');
+
+
+
+
+body {
+	background: #ffffff;
+	margin: 0;
+}
+
+div {
+	overflow: hidden;
+}
+.background {
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:-1000;
+	vertical-align: bottom;
+	margin:auto; 
+}
+
+.header {    /*logo*/
+	width:175px;
+	height:170px;
+  background: rgb(255, 255, 255);
+  border:2px solid black;
+  float:auto;
+  margin:auto;
+  border-radius: 100px;
+  text-align: left;
+}
+img{
+	width:100%;
+	height: 100%;
+	vertical-align:bottom;
+}
+.house {
+	 width: 920px;
+   margin: auto;
+	 margin-top: 7px;
+   margin-bottom: 20px; 
+}
+.sidebar {
+	width: 200px;
+	
+	border:2px solid black;
+	background: rgba(204,204,204,.8);
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-radius: 30x;
+  float: left;
+}
+h1{
+  color:#000000 !important;
+  font-family: "Gabriola", serif;
+  font-size: 35px; 
+}
+.content {
+	width : 700px;
+	border:2px solid black;
+	background: rgba(204,204,204,.8);
+	float: right;
+	font-family: 'Caveat', cursive;
+	border-radius: 20px;
+}
+.error{
+	background:rgba(218,218,218,);
+	margin:auto; 
+}
+.box1{
+    width:640px;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 20px;
+    margin: 10px;
+    background:rgba(128,128,128,.4);
+ 
+}
+.boxbackground{
+	  width:640px;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 20px;
+    margin: 10px;
+    background:rgba(128,128,128,.4);
+}
+.button1{
+	text-decoration: none;
+     color:#ffffff !important;
+     padding: 10px;
+     width: 170px;
+     margin-top: 10px;
+     background:#BC8F8F; 
+     text-align: center;
+     border-radius: 40px;
+     margin-right:5px;
+     border-bottom: 3px solid #660000;
+     transition: all 0.5s ease;
+
+}
+.button1:hover {
+	background: 	#BC8F8F;
+	color: #000000 !important;
+	border-bottom: 3px solid #800000;
+	transition: all 0.5s ease;
+}
+
+.button2{
+	margin:40px;
+	text-decoration: none;
+     color:#ffffff !important;
+     padding: 10px;
+     width: 170px;
+     
+     background:	#BC8F8F; 
+     text-align: center;
+     border-radius: 10px;
+     margin-right:5px;
+     border-bottom: 3px solid #660000;
+     transition: all 0.5s ease;
+
+}
+.button2:hover {
+	background: 	#BC8F8F;
+	color: #000000 !important;
+	border-bottom: 3px solid #800000;
+	transition: all 0.5s ease;
+}
+
+.footer {
+	width:910px;
+	height:60px;
+	border: 2px solid black;
+	background: rgba(204,204,204,.8);
+    margin:auto;
+    border-radius: 20px;
+}
+/*кнопка*/
+.button{
+     text-decoration: none;
+     color:#ffffff !important;
+     padding: 10px;
+     width: 170px;
+     float: right;
+     margin-top: 10px;
+     background:	#BC8F8F; 
+     text-align: center;
+     border-radius: 40px;
+     margin-right:5px;
+     border-bottom: 3px solid #660000;
+     transition: all 0.5s ease;
+}
+.button:hover {
+	background: 	#BC8F8F;
+	color: #000000 !important;
+	border-bottom: 3px solid #800000;
+	transition: all 0.5s ease;
+}
+
+
+
+/*кнопки-меню-страниц */
+
+.dws-menu * {
+  margin: 0;
+  padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+  list-style: none;
+}
+
+.dws-menu>ul {
+  display: flex;
+  justify-content: center;
+}
+
+.dws-menu > ul li a {
+  display: block;
+  margin: 2px;
+  background: rgba(92, 92, 94, .6);
+  padding: 5px 25px 5px 25px;
+  font-size: 14px;
+  color: #454547;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: 1px solid black;
+  color: black;
+  transition: all 0.5s ease;
+  border-radius: 2px;
+}
+
+.dws-menu a:hover {
+  background: rgba(54, 54, 54);
+}
+
+.dws-menu >ul li a:not([href]) {
+  background: 	#BC8F8F;
+}
+
+.button30 :hover{
+	color: #ffffff;
+}
+
+
+
+
